@@ -94,7 +94,7 @@ const ChildProtection = () => {
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
             <p>For any questions, concerns, or reports specifically related to these Child Safety and Protection Standards, potential underage users, or child safety issues on CraveCore, please contact our designated point of contact:</p>
             <div className='bg-white p-4 rounded border border-gray-200 mt-3'>
-              <p className='font-medium'>Email: <span className='text-red-600'>cravecore@gmail.com</span></p>
+              <p className='font-medium'>Email: <span className='text-red-600'>cravecoreapp@gmail.com</span></p>
               <p className='mt-3 text-sm text-gray-600'>This contact is monitored for safety-related inquiries, especially those concerning minors.</p>
             </div>
           </div>

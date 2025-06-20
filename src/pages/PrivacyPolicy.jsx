@@ -1,33 +1,34 @@
-import React from 'react'
+import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div className='px-4 sm:px-6 py-8 sm:py-12 max-w-6xl mx-auto'>
+    <div className='px-4 sm:px-6 py-8 sm:py-12 max-w-6xl mx-auto font-sans'>
       <header className='mb-8 sm:mb-10 border-b border-gray-200 pb-6'>
         <h1 className="font-bold text-3xl sm:text-4xl text-red-700 mb-2">CraveCore Privacy Policy</h1>
-        <p className='text-gray-600 text-sm sm:text-base'>Last Updated: April 5, 2025</p>
+        <p className='text-gray-600 text-sm sm:text-base'>Last Updated: June 20, 2025</p>
       </header>
 
       <div className='space-y-8 sm:space-y-12'>
         <section className='space-y-4'>
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">Introduction</h2>
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
-            <p>CraveCore is a unique relationship app designed to rekindle passion and deepen intimacy for couples. In today's fast-paced world, where routine and stress often take a toll on emotional connections, our app offers a refreshing way for partners to reconnect.</p>
-            <p>With playful challenges, intimate conversations, expert tips, and innovative features like daily seduction prompts and gamified rewards, we provide an engaging experience that transforms fading relationships into vibrant partnerships.</p>
-            <p>This Privacy Policy explains how we collect, use, share, and protect your personal information when you access or use CraveCore. By using our app, you consent to the practices described in this policy. If you do not agree with any part of our Privacy Policy, please do not use CraveCore.</p>
+            <p>CraveCore is a dynamic social gaming and connection application designed to enhance user engagement and provide engaging entertainment. Our app enables users to register and log in exclusively with their Google accounts, play various games, upload and customize profile pictures, interact through a social feed by posting and reading content, and participate in diverse challenges.</p>
+            <p>This Privacy Policy explains how CraveCore ("we," "us," or "our") collects, uses, shares, and protects your personal information when you access or use our mobile application. By using CraveCore, you consent to the practices described in this policy. If you do not agree with any part of our Privacy Policy, please do not use CraveCore.</p>
           </div>
         </section>
 
         <section className='space-y-4'>
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">Scope and Applicability</h2>
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
-            <p>This policy applies to all users of CraveCore, including registered users and visitors who interact with our app and website. It governs data collection, processing, and storage practices related to all core features of the app, including:</p>
+            <p>This policy applies to all users of CraveCore. It governs our data collection, processing, and storage practices related to all features of the app, including:</p>
             <ul className='list-disc pl-6 space-y-1'>
-              <li>User profiles and communication tools</li>
-              <li>Relationship recommendations and daily connection challenges</li>
-              <li>Love language tests and memory boxes</li>
-              <li>Gamified experiences and notifications</li>
-              <li>Customizable relationship goals</li>
+              <li>User Registration and Authentication exclusively via Google Accounts.</li>
+              <li>Profile Management, including uploading and changing profile pictures.</li>
+              <li>Gaming Activities and participation.</li>
+              <li>Social Feed functionality, allowing users to post and read content.</li>
+              <li>Participation in in-app Challenges.</li>
+              <li>In-app Purchases and Subscriptions.</li>
+              <li>Advertising displayed via Unity Ads.</li>
             </ul>
           </div>
         </section>
@@ -36,54 +37,46 @@ const PrivacyPolicy = () => {
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">Core Features and Their Data Implications</h2>
           <div className='space-y-4'>
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">User Profile (Registration and Login)</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>When you register and create a user profile, we collect personal information (such as your name, email address, date of birth, and profile picture) to establish your identity and secure your account. This information helps tailor the app experience to your individual needs and preferences.</p>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">User Registration & Profile Management (Google Account Only)</h3>
+              <p className='text-gray-700 text-sm sm:text-base'>When you register and log in to CraveCore, you do so exclusively using your Google account. We collect your Google User ID, email address, and profile picture from Google for authentication purposes and to establish your CraveCore profile. This information helps us secure your account and personalize your app experience. You can also upload or change your profile picture within the app.</p>
             </div>
 
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Partner Matching (Future Update)</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>While this feature is planned for a future update, any data collected to facilitate partner matching will be handled with the highest security standards and used solely to improve user compatibility and experience.</p>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">Social Feed (Posting and Reading)</h3>
+              <p className='text-gray-700 text-sm sm:text-base'>Our app features an interactive social feed where users can post updates, thoughts, and images, and read content posted by other users. We collect the content you post (e.g., text, images) to facilitate community interaction. This data may also be used for content moderation and improving the feed experience.</p>
             </div>
 
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Communication Tools</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>Our app features an interactive feed where users share goals, interests, and experiences. We collect content you post (comments, likes, messages) to foster a community of supportive couples. This data may also be used for moderation and quality improvement.</p>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">Gaming Activities</h3>
+              <p className='text-gray-700 text-sm sm:text-base'>CraveCore offers various in-app games for your entertainment. We collect data related to your gameplay, such as scores, progress, and game preferences, to enhance your gaming experience, track achievements, and improve game offerings.</p>
             </div>
 
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Relationship Recommendations</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>Based on relationship types and individual preferences, we offer tailored tips and expert-curated content. The information you share in your profile and usage patterns help us personalize these recommendations.</p>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">Challenges</h3>
+              <p className='text-gray-700 text-sm sm:text-base'>You can participate in various in-app challenges designed to engage and entertain. We collect data related to your challenge participation, completion, and performance to track activity, manage rewards, and personalize future challenges.</p>
+            </div>
+            
+            <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">In-App Purchases & Subscriptions</h3>
+              <p className='text-gray-700 text-sm sm:text-base'>CraveCore offers in-app purchases and subscriptions for premium content or features. All transactions are processed securely via Google Play. We do not directly collect or store your financial payment information. We receive confirmation of your purchases from Google Play to activate your purchased content or subscription.</p>
             </div>
 
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Daily Connection Challenges</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>We provide daily prompts and activities designed to encourage meaningful interactions. Participation data is used to track activity engagement and to provide personalized feedback.</p>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">Unity Ads</h3>
+              <p className='text-gray-700 text-sm sm:text-base'>Our app integrates Unity Ads to display advertisements. Unity Ads may collect certain data from your device, such as advertising identifiers, IP addresses, and device information, to deliver relevant ads and measure their performance. This data collection and usage are in line with acceptable Google Play Console conditions. For more information on Unity Ads' data practices, please refer to Unity's Privacy Policy.</p>
             </div>
 
-            <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Love Language Tests & Insights</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>By participating in our love language assessments, you provide us with data regarding your preferences and relational dynamics. This data is processed to generate insights that help you understand and fulfill each other's needs.</p>
-            </div>
-
-            <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Memory Box & Journal</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>Couples can securely store shared memories, photos, and messages in a private space. This sensitive content is protected by robust security measures and is only accessible to the account holders.</p>
-            </div>
-
-            <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Gamified Experience & Rewards</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>To enhance engagement, we offer a rewards system for completing various activities. Your participation data is used to manage rewards and to improve the gamified experience.</p>
-            </div>
-
+            {/* Existing sections that are still relevant to a general app */}
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
               <h3 className="font-semibold text-lg text-gray-800 mb-2">Notifications & Reminders</h3>
-              <p className='text-gray-700 text-sm sm:text-base'>We send timely alerts and reminders to encourage daily check-ins and continued engagement. The delivery of these notifications relies on data such as device information and app usage patterns.</p>
+              <p className='text-gray-700 text-sm sm:text-base'>We send timely alerts and reminders to encourage continued engagement. The delivery of these notifications relies on data such as device information and app usage patterns.</p>
             </div>
 
             <div className='bg-gray-50 p-4 sm:p-5 rounded-lg'>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">Customizable Relationship Goals and Conversation Starters</h3>
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">Customizable Relationship Goals and Conversation Starters (if applicable, otherwise remove)</h3>
               <p className='text-gray-700 text-sm sm:text-base'>You can set and track relationship goals and access conversation starters and deep questions to improve communication. Data from these features helps us refine our offerings and enhance your experience.</p>
             </div>
+            {/* End of existing sections */}
           </div>
         </section>
 
@@ -92,13 +85,11 @@ const PrivacyPolicy = () => {
           <div className='space-y-4'>
             <div className='bg-red-50 p-4 sm:p-5 rounded-lg'>
               <h3 className="font-semibold text-lg text-red-700 mb-2">A. Personal Information</h3>
-              <p className='text-gray-700 text-sm sm:text-base mb-3'>During account registration and profile creation, we may collect:</p>
+              <p className='text-gray-700 text-sm sm:text-base mb-3'>When you use CraveCore, we may collect the following personal information:</p>
               <ul className='list-disc pl-6 space-y-1 text-gray-700 text-sm sm:text-base'>
-                <li><span className="font-medium">Identification Data:</span> Name, email address, date of birth, username, and profile picture</li>
-                <li><span className="font-medium">Contact Information:</span> Email address and any additional contact details</li>
-                <li><span className="font-medium">Profile Information:</span> Preferences, interests, relationship status</li>
-                <li><span className="font-medium">Content You Generate:</span> Posts, comments, messages, photos</li>
-                <li><span className="font-medium">Payment Details:</span> For premium services, processed securely via third-party processors</li>
+                <li><span className="font-medium">Authentication Data:</span> Google User ID, email address, and profile picture (obtained from your Google account upon login).</li>
+                <li><span className="font-medium">Profile Information:</span> Display name, and any other details you voluntarily add to your CraveCore profile.</li>
+                <li><span className="font-medium">User-Generated Content:</span> Any text, images, or other media you post on the feed, upload as a profile picture, or submit as part of challenges or game interactions.</li>
               </ul>
             </div>
 
@@ -106,9 +97,10 @@ const PrivacyPolicy = () => {
               <h3 className="font-semibold text-lg text-red-700 mb-2">B. Non-Personal Information</h3>
               <p className='text-gray-700 text-sm sm:text-base mb-3'>We also collect non-personally identifiable information, including:</p>
               <ul className='list-disc pl-6 space-y-1 text-gray-700 text-sm sm:text-base'>
-                <li><span className="font-medium">Usage Data:</span> How you interact with CraveCore</li>
-                <li><span className="font-medium">Device Information:</span> IP address, operating system, browser type</li>
-                <li><span className="font-medium">Cookies and Tracking Technologies:</span> To enhance experience and analyze trends</li>
+                <li><span className="font-medium">Usage Data:</span> Information about how you interact with CraveCore, such as features accessed, games played, time spent in the app, and navigation paths.</li>
+                <li><span className="font-medium">Device Information:</span> IP address, device type, operating system, unique device identifiers (e.g., advertising ID), and mobile network information.</li>
+                <li><span className="font-medium">Transaction Data:</span> Details of your in-app purchases and subscriptions (e.g., item purchased, purchase date), provided by Google Play, without revealing your financial details.</li>
+                <li><span className="font-medium">Advertising Data:</span> Data collected by Unity Ads for ad delivery and measurement, such as ad impressions, clicks, and conversion events.</li>
               </ul>
             </div>
           </div>
@@ -119,12 +111,13 @@ const PrivacyPolicy = () => {
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
             <p>We process your information to:</p>
             <ul className='list-disc pl-6 space-y-1'>
-              <li><span className="font-medium">Provide and Improve Our Services:</span> Deliver a seamless, personalized, and engaging experience that adapts to your relationship needs and preferences.</li>
-              <li><span className="font-medium">User Authentication and Account Management:</span> Verify your identity, secure your account, and provide you with customer support.</li>
-              <li><span className="font-medium">Personalization:</span> Customize recommendations, challenges, notifications, and other content based on your interests and behaviors.</li>
-              <li><span className="font-medium">Analytics and Research:</span> Analyze app usage and engagement trends to enhance functionality, improve features, and optimize user experience.</li>
-              <li><span className="font-medium">Communication:</span> Send essential updates, promotional messages (if opted in), and notifications regarding app activities, security alerts, and policy updates.</li>
-              <li><span className="font-medium">Legal and Regulatory Compliance:</span> Ensure that our practices comply with applicable laws and regulations, and respond to legal requests when necessary.</li>
+              <li><span className="font-medium">Provide and Improve Our Services:</span> To deliver, maintain, and enhance CraveCore's functionalities, including seamless user authentication via Google, gaming experiences, social feed interactions, and challenge participation.</li>
+              <li><span className="font-medium">User Authentication and Account Management:</span> To verify your identity through Google, secure your account, and enable profile customization, including profile picture changes.</li>
+              <li><span className="font-medium">Personalization:</span> To customize your in-app experience, offering relevant content, games, and challenges based on your interests and activities.</li>
+              <li><span className="font-medium">Analytics and Research:</span> To analyze app usage and engagement trends, understand user behavior, diagnose technical issues, and continuously improve the app's performance, features, and overall user experience.</li>
+              <li><span className="font-medium">Monetization:</span> To process in-app purchases and subscriptions, and to display relevant advertisements via Unity Ads, in accordance with applicable platform policies.</li>
+              <li><span className="font-medium">Communication:</span> To send essential app-related notifications, updates, and support messages.</li>
+              <li><span className="font-medium">Security and Compliance:</span> To detect and prevent fraudulent activities, protect the security of our app and users, and comply with legal obligations and platform requirements (e.g., Google Play Console conditions).</li>
             </ul>
           </div>
         </section>
@@ -132,12 +125,15 @@ const PrivacyPolicy = () => {
         <section className='space-y-4'>
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">Disclosure of Your Information</h2>
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
-            <p>We maintain strict controls on who has access to your data:</p>
+            <p>We are committed to keeping your data within the app ecosystem. **CraveCore does not sell your personal data to third parties.** Your data is collected and used solely within the app to provide and improve its services.</p>
+            <p>We may share your information only in the following limited circumstances with essential service providers who adhere to strict confidentiality and data protection standards, and only for the purposes outlined in this policy:</p>
             <ul className='list-disc pl-6 space-y-1'>
-              <li><span className="font-medium">Third-Party Service Providers:</span> We share your information with trusted partners (such as payment processors, hosting providers, and analytics services) under strict confidentiality agreements to support the operation and improvement of CraveCore.</li>
-              <li><span className="font-medium">Legal Obligations:</span> Your information may be disclosed if required by law, regulation, or legal process, or if necessary to protect the rights, property, or safety of CraveCore, our users, or others.</li>
-              <li><span className="font-medium">Business Transfers:</span> In the event of a merger, acquisition, or sale of our assets, your data may be transferred as part of the transaction. We will notify you if your personal information becomes subject to a new privacy policy.</li>
+              <li><span className="font-medium">Google (for Authentication & Purchases):</span> We share necessary information with Google to facilitate your login via Google Accounts and to process in-app purchases and subscriptions through Google Play.</li>
+              <li><span className="font-medium">Unity Ads (for Advertising):</span> We integrate Unity Ads to provide in-app advertisements. Certain non-personal and device-related data (such as advertising identifiers, IP addresses, device information) may be shared with Unity Ads to enable ad delivery and measurement, fully within the acceptable Google Play Console conditions. Please review Unity's Privacy Policy for their data practices.</li>
+              <li><span className="font-medium">Legal Obligations:</span> We may disclose your information if required by law, regulation, or legal process, or if necessary to protect the rights, property, or safety of CraveCore, our users, or the public.</li>
+              <li><span className="font-medium">Business Transfers:</span> In the event of a merger, acquisition, or sale of all or a portion of our assets, your data may be transferred as part of the transaction. We will notify you if your personal information becomes subject to a different privacy policy.</li>
             </ul>
+            <p className='mt-3'>**Important Note:** Any content (e.g., feed posts, comments, profile pictures) that you choose to make public within the CraveCore app's social features can be viewed by other users of the app.</p>
           </div>
         </section>
 
@@ -145,8 +141,8 @@ const PrivacyPolicy = () => {
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">Data Retention</h2>
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
             <ul className='list-disc pl-6 space-y-1'>
-              <li><span className="font-medium">Retention Policy:</span> We retain your personal data only for as long as it is necessary to fulfill the purposes for which it was collected, or as required by law. When data is no longer needed, it is securely deleted or anonymized.</li>
-              <li><span className="font-medium">Deletion Requests:</span> You may request the deletion of your personal data by contacting us. We will verify your identity and respond promptly, subject to any legal obligations we may have.</li>
+              <li><span className="font-medium">Retention Policy:</span> We retain your personal data only for as long as it is necessary to fulfill the purposes for which it was collected, to provide our services, or as required by law. When data is no longer needed, it is securely deleted or anonymized.</li>
+              <li><span className="font-medium">Deletion Requests:</span> You may request the deletion of your personal data by contacting us through the provided "Data Deletion Request" feature within the app. We will verify your identity and respond promptly, subject to any legal obligations we may have.</li>
             </ul>
           </div>
         </section>
@@ -154,12 +150,7 @@ const PrivacyPolicy = () => {
         <section className='space-y-4'>
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">Security Measures</h2>
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
-            <p>Protecting your data is a top priority:</p>
-            <ul className='list-disc pl-6 space-y-1'>
-              <li><span className="font-medium">Technical Safeguards:</span> We use encryption, secure servers, and advanced access controls to protect your information from unauthorized access, alteration, or disclosure.</li>
-              <li><span className="font-medium">Ongoing Security Monitoring:</span> Our systems are continuously monitored and updated to address emerging threats and vulnerabilities.</li>
-              <li><span className="font-medium">Data Breach Response:</span> In the event of a data breach, we have a comprehensive incident response plan to mitigate risks, investigate the breach, and notify affected users as required by law.</li>
-            </ul>
+            <p>Protecting your data is a top priority. We implement reasonable technical and organizational measures to safeguard the information we collect against unauthorized access, disclosure, alteration, and destruction. These measures include encryption, secure servers, and advanced access controls. However, no method of transmission over the internet or electronic storage is 100% secure.</p>
           </div>
         </section>
 
@@ -168,9 +159,9 @@ const PrivacyPolicy = () => {
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
             <p>You have the following rights regarding your personal data:</p>
             <ul className='list-disc pl-6 space-y-1'>
-              <li><span className="font-medium">Access and Correction:</span> You can access, review, and update your personal information through your account settings or by contacting us directly.</li>
-              <li><span className="font-medium">Opt-Out:</span> You may opt out of receiving promotional communications by following the unsubscribe instructions in our emails or contacting our support team.</li>
-              <li><span className="font-medium">Consent Withdrawal:</span> You have the right to withdraw your consent for the processing of your data. Please note that withdrawing consent may affect your ability to use certain features of CraveCore.</li>
+              <li><span className="font-medium">Access and Correction:</span> You can access, review, and update your profile information (including profile picture) directly through your app settings. For other data, you may contact us directly.</li>
+              <li><span className="font-medium">Data Deletion:</span> You have the right to request the deletion of your personal data. Please use the "Data Deletion Request" feature in the app or contact us directly.</li>
+              <li><span className="font-medium">Advertising Preferences:</span> You may be able to reset your device's advertising identifier or opt out of interest-based ads through your device settings.</li>
             </ul>
           </div>
         </section>
@@ -178,7 +169,14 @@ const PrivacyPolicy = () => {
         <section className='space-y-4'>
           <h2 className="font-bold text-xl sm:text-2xl text-red-800">International Data Transfers</h2>
           <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
-            <p>CraveCore may transfer your personal data to servers located in other countries. We take steps to ensure that such transfers comply with applicable data protection laws and that your information remains secure, regardless of where it is processed.</p>
+            <p>CraveCore may transfer and process your personal data on servers located in various countries where our service providers operate. By using our app, you consent to the transfer of information to countries outside of your country of residence, which may have different data protection laws than those in your country. We take appropriate steps to ensure that such transfers comply with applicable data protection laws and that your information remains secure, regardless of where it is processed.</p>
+          </div>
+        </section>
+
+        <section className='space-y-4'>
+          <h2 className="font-bold text-xl sm:text-2xl text-red-800">Children's Privacy</h2>
+          <div className='space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base'>
+            <p>CraveCore is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13 without verifiable parental consent, we will take steps to remove that information from our servers.</p>
           </div>
         </section>
 
@@ -206,7 +204,7 @@ const PrivacyPolicy = () => {
         </section>
       </div>
     </div>
-  )
+  );
 }
 
-export default PrivacyPolicy
+export default PrivacyPolicy;
